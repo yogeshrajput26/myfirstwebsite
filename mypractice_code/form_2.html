@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form 2</title>
+    <link rel="icon" href="favicon.ico" >
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/mystyle.css" />
+    <script src="../js/bundle.min.js"></script>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo01"
+          aria-controls="navbarTogglerDemo01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <a class="navbar-brand" href="#"
+            ><img
+              src="https://vitabletech.in/img/logo.jpg"
+              class="img-fluid"
+              width="50"
+          /></a>
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a title="Home" class="nav-link active text-white" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a title="FAQS" class="nav-link active text-white" aria-current="page" href="faqs.html"
+                >FAQS </a
+              >
+            </li>
+            <li class="nav-item">
+              <a title="Table 1" class="nav-link text-white" href="table.html"
+                >Table 1</a
+              >
+            </li>
+            <li class="nav-item">
+              <a title="Table 2" class="nav-link active text-white" aria-current="page" href="my_table_formation.html"
+                >Table_2 </a
+              >
+                <li class="nav-item">
+                  <a title="Form 1" class="nav-link active text-white" aria-current="page" href="form_1.html"
+                    >Form 1 </a
+                  >
+                  <li class="nav-item">
+                    <a title="Form 2" class="nav-link active text-white" aria-current="page" href="form_2.html"
+                      >Form 2 </a
+                    >
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <form>
+      <table class="border w-100">
+        <tr class="bg-blue">
+          <td colspan="2" class="text-center border text-red bg-yellow">
+              <h2>Registration Form</h2>
+          </td>
+        </tr>
+        <tr class="bg-blue">
+          <td class="border">Enter Name</td>
+          <td class="border"><input type="text" name="firstname" /></td>
+        </tr>
+        <tr class="bg-blue">
+          <td class="border">Enter Password</td>
+          <td class="border"><input type="password" /></td>
+        </tr>
+        <tr class="bg-blue">
+          <td class="border">Enter Address</td>
+          <td class="border"><input type="email" /></td>
+        </tr>
+        <tr class="bg-blue">
+          <td class="border">Select Games</td>
+          <td class="border">
+            <input type="checkbox" checked/>Hockey<br />
+            <input type="checkbox" checked/>Vollyball<br />
+            <input type="checkbox" />Football<br />
+            <input type="checkbox" />Badminton<br />
+            <input type="checkbox" />Cricket<br />
+          </td>
+        </tr>
+        <tr class="bg-blue">
+          <td class="border">Gender</td>
+          <td class="border">
+            <input type="radio" name="gender" value="male" checked/> Male
+            <input type="radio" name="gender" value="female"/> Female
+          </td>
+        </tr>
+        <tr class="bg-blue">
+          <td class="border">Select ur Age</td>
+          <td class="border">
+            <select name="Select">
+              <option>Select</option>
+              <option value="19">19</option>
+              <option value="20">20</option>
+              <option value="21">21</option>
+              <option value="22">22</option>
+            </select>
+          </td>
+        </tr>
+        <tr class="bg-blue">
+          <td class="border">Select Photo</td>
+          <td class="border">
+            <input type="file" />
+          </td>
+        </tr>
+        <tr class="bg-blue">
+          <td colspan="2" class="text-center">
+            <input type="submit" value="Submit Form" class="p" />
+            <input type="submit" value="Reset" class="p" />
+            <input type="submit" value="Click Me" class="p" />
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
