@@ -1,3 +1,11 @@
-.h-260{
-    height: 260px;
+.h-260 {
+  height: 260px;
+}
+.font_Sofia {
+  font-family: "Sofia", sans-serif;
+}
+.img-thumbnail {
+  width:  100%;
+  height: 100%; 
+  object-fit: cover;
 }
