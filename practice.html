@@ -23,8 +23,9 @@
                 <h3>My Practice Code</h3>
             </div>
             <div class="col-lg-4 col-12 p-2">
-                <button type="button" class="btn btn-secondary float-end ">Ask For Demo</button>
-                <button type="button" class="btn btn-secondary float-end ">Contact Us</button>
+                <button type="button" class="btn btn-secondary float-end" data-bs-toggle="modal" data-bs-target="#modal3">Ask For Demo</button>
+                  <a title="Contact Us" class="nav-link active text-white" aria-current="page" href="index.html#contactform">
+                  <button type="button" class="btn btn-secondary float-end ">Contact Us</button></a>
                 <a href="index.html" class="btn btn-secondary float-end ">Back to Home</a>
             </div>
         </div>
@@ -278,5 +279,58 @@
         </div>
         </footer>
         </div>
+        <div class="modal fade" id="modal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-xl">
+              <div class="modal-content d-flex justify-content-center ps-5 pe-5">
+                  <div class="modal-header">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                      <div class="container">
+                          <h5 class="border-bottom pb-3 text-danger">Evaluate Demo Yourself</h5>
+                          <h6 class="mt-4">Evaluate OnPrintShop Platinum W2P Solution before Making a Decision</h6>
+                          <p>We are confident that our solution is intuitive & simple to use with the least IT skills.Don't take it for our word, experience it yourself!</p>
+                          <h6>Simply enter details below and receive an email to access your Demo Account.</h6>
+                          <div class="row m-3">
+                              <div class="col-6">
+                                  <input class="form-control" type="name" placeholder="Full Name">
+                              </div>
+                              <div class="col-6">
+                                  <input class="form-control" type="email" placeholder="Email ID">
+                              </div>
+                          </div>
+                          <div class="row m-3">
+                              <div class="col-6">
+                                  <input class="form-control" type="number" placeholder="Phone No.">
+                              </div>
+                              <div class="col-6">
+                                  <select name="country" class="form-select">
+                                      <option> Select Country</option>
+                                      <option value="In">India</option>
+                                      <option value="usa">USA</option>
+                                      <option value="aus">Australia</option>
+                                      <option value="can">Canada</option>
+                                  </select>
+                              </div>
+                          </div>
+                          <div class="row m-3">
+                              <div class="col-12">
+                                  <input class="form-control" type="text" placeholder="Share your requirments.">
+                              </div>
+                          </div>
+                          <div class="row justify-content-between m-3">
+                              <div class="col-6">
+                                  <img src="https://crm.zoho.com/crm/CaptchaServlet?formId=2d55eed370387cca922cd89738132b2ca217f4d09f8d66a7530117dc17f531c6&grpid=d7e7f1c4eee964f4c8d101542b9bac94903228b407d7fc834686355f5ac645de" class="img-fluid">
+                              </div>
+                              <div class="col-6 text-end">
+                                  <input class="btn btn-primary " type="submit">
+                                  <input class="btn" type="reset">
+                              </div>      
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          </div>
 </body>
 </html
