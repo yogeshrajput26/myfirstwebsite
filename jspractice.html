@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS Practice</title>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Sofia&effect=fire|neon|outline|emboss|shadow-multiple">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/mystyle.css">
+  <link rel="icon" href="favicon.ico">
+  <script src="js/bundle.min.js"></script>
+</head>
+
+<body>
+  <div class="container-fluid top-header bg-success">
+    <div class="row justify-content-between">
+      <div class="col-lg-4 col-12 d-lg-block d-none p-2">
+        <h3>JS Practice Code</h3>
+      </div>
+      <div class="col-lg-4 col-12 p-2">
+        <button type="button" class="btn btn-secondary float-end" data-bs-toggle="modal" data-bs-target="#modal3">Ask
+          For Demo</button>
+        <a title="Contact Us" class="nav-link active text-white" aria-current="page" href="index.html#contactform">
+          <button type="button" class="btn btn-secondary float-end ">Contact Us</button></a>
+        <a href="index.html" class="btn btn-secondary float-end ">Back to Home</a>
+      </div>
+    </div>
+  </div>
+  <h1 class="text-center m-3">Function List</h1>
+  <div class="container table-responsive">
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">S.r No.</th>
+          <th scope="col" width="50%">Built in function / Pre-define function</th>
+          <th scope="col">Example</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Number
+            <ul>
+              <li>
+                Description: It will convert string to number
+              </li>
+              <li>return: It will give number value if it is valid if not then it will return NaN</li>
+            </ul>
+          </td>
+          <td>
+            <ul>
+              <li>let x = "5";</li>
+              <li> console.log(typeof x) //string but a valid number</li>
+              <li> x = Number(x) //it will convert string into number</li>
+              <li> console.log(typeof x) //number</li>
+              <li> console.log(x) //5</li>
+            </ul>
+            <h6>If number is not valid</h6>
+            <ul>
+              <li>let x = "test";</li>
+              <li> console.log(typeof x) //string but not a valid number</li>
+              <li> x = Number(x) //it will convert string into number but because of it is not a valid number it will
+                convert only datatype like string to number and value will be NaN</li>
+              <li> console.log(typeof x) //number</li>
+              <li> console.log(x) //NaN</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>parseInt
+            <ul>
+              <li>Description: it will print integer value if it is float</li>
+              <li>return: it will write intiger value if it is valid number</li>
+            </ul>
+          </td>
+          <td>isEven</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>isNan
+            <ul>
+              <li>Description: It will print Nan if it is not find a number</li>
+              <li>return: it return nothing if it not find any number</li>
+            </ul>
+          </td>
+          <td>numberr</td>
+        </tr>
+        <tr>
+          <th scope="row">4</th>
+          <td> parseFloat
+            <ul>
+              <li>Description: it will give the exact value that we put it in</li>
+              <li>return: it will print exact number value if it is valid number</li>
+            </ul>
+          </td>
+          <td>evenNumber</td>
+        </tr>
+        <tr>
+          <th scope="row">5</th>
+          <td> ---</td>
+          <td>oddNumber</td>
+        </tr>
+        <tr>
+          <th scope="row">6</th>
+          <td> ---</td>
+          <td>counting</td>
+        </tr>
+        <tr>
+          <th scope="row">7</th>
+          <td> ---</td>
+          <td>sum</td>
+        </tr>
+        <tr>
+          <th scope="row">8</th>
+          <td>---</td>
+          <td>isDivisibleBy7</td>
+        </tr>
+        <tr>
+          <th scope="row">9</th>
+          <td> ---</td>
+          <td>greatestNumberSq</td>
+        </tr>
+        <tr>
+          <th scope="row">10</th>
+          <td> ---</td>
+          <td>squareOfNaturalNumber</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+
+</html>
